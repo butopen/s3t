@@ -1,0 +1,7 @@
+{
+  "name": "s3t",
+  "version": "1.0.0",
+  "description": "Run npx s3t --help to discover how to shortify your npm commands",
+  "dependencies": {
+  }
+}
