@@ -1,10 +1,12 @@
 {
   "name": "s3t",
-  "version": "1.0.0",
+  "version": "1.0.4",
+  "bin": "index.js",
   "description": "Run npx s3t to shortify your npm commands or build command templates",
   "dependencies": {
   },
   "scripts": {
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "p": "npx s3t \"npm run publish\" -- "
   }
 }

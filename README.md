@@ -17,9 +17,7 @@ npm run new:c my-component
 You can _shortify_ the command above in your `package.json` like in the example below:
 
 ```json
-
 "new:c": "npx s3t \"ng generate component src/module/components $component\" --"
-
 ```
 
 When you run it, it will ask for the component name and then launch your original command.

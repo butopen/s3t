@@ -1,8 +1,15 @@
+#!/usr/bin/env node
+
 const execSync = require("child_process").execSync;
 const readline = require("readline");
 
 const c = process.argv[2];
 let interactive = false;
+
+if (!c) {
+  console.log("No command found. Exiting...");
+  process.exit(1);
+}
 
 function ask(query) {
   interactive = true;
