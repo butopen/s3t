@@ -7,7 +7,17 @@ const c = process.argv[2];
 let interactive = false;
 
 if (!c) {
-  console.log("No command found. Exiting...");
+  console.log(`No command found. 
+  
+To run this script you must place it in your package.json as follows:
+
+"a-short-script": "npx s3t \\"your-long-and-complicated-command $param1\\" --"
+
+then you can run it like
+
+npm run a-short-script
+  
+  Exiting...`);
   process.exit(1);
 }
 
