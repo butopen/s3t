@@ -1,7 +1,10 @@
 {
   "name": "s3t",
   "version": "1.0.0",
-  "description": "Run npx s3t --help to discover how to shortify your npm commands",
+  "description": "Run npx s3t to shortify your npm commands or build command templates",
   "dependencies": {
+  },
+  "scripts": {
+    "publish": "npm publish"
   }
 }
