@@ -14,13 +14,7 @@ What if you can achieve the same result with:
 npm run new:c my-component  
 ```
 
-You can then _shortify_ and make it a template like below:
-
-```
-npx s3t \"ng generate component src/module/components $component\" -- 
-```
-
-Now you can put it in your `package.json` like in the example below:
+You can _shortify_ the command above in your `package.json` like in the example below:
 
 ```json
 
